@@ -9,7 +9,7 @@
 * Expected JSON body (example):
 ```
 {
-"uid" : "1005",
+"uid" : "testuser",
 "template-name" : "template_xpra.txt",
 "variables" : {
 "expected_runtime_in_minutes" : "15",
@@ -32,7 +32,7 @@
    * `'\n'`
 
 ### Individual parameters
-* `uid`: The user id as string (user must exist on all cluster nodes)
+* `uid`: The user name as string (user must exist on all cluster nodes)
 * `template-name`: Filename of the template (sanitized as explained above)
 * `variables`: Contains all variables to be substituted into the template
    * `expected_runtime_in_minutes`: String containing the maximum allowed runtime in minutes
