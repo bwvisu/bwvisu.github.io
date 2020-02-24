@@ -12,6 +12,9 @@ The bwVisu project provides such a remote visualization service for scientists f
 bwVisu is an ongoing development effort. The service and software stack are currently in an alpha test phase. Interested users are invited to contact us to get access.
 
 
+## Getting started
+New to bwVisu? Come [this way!](getting-started.md)
+
 ## Documentation
 * **For users:** [See here](user-docs/user-docs.md) for an introduction to bwVisu for users.
 * **For administrators or the technically inclined:** [See here](technical-docs/technical-docs.md) for the bwVisu technical documentation, including a description of its architecture, how it works and how to install bwVisu.
