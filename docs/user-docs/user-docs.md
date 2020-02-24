@@ -5,7 +5,7 @@
 Please [click here](getting-started.md) to get started with bwVisu!
 
 ## Accessing data in bwVisu
-Once a connection is established to one of the storage backends as described in [getting started](gettings-started.md), users can access their data using the directories for the bwForCluster MLS&WISO and SDS@hd in their home directories.
+Once a connection is established to one of the storage backends as described in [getting started](getting-started.md), users can access their data using the directories for the bwForCluster MLS&WISO and SDS@hd in their home directories.
 
 ## Known issues
 
