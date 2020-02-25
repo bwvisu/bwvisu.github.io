@@ -1,4 +1,4 @@
-# Gettings started with bwVisu
+# Getting started with bwVisu
 
 **Important: bwVisu does not possess a storage backend. In order to access your data with bwVisu, it must reside on the bwForCluster MLS&WISO or SDS@hd. Data persistence is not guaranteed in your home directory on the bwVisu system itself.**
 
