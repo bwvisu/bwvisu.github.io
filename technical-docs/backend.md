@@ -43,8 +43,16 @@ These are nodes through which the user connections will be forwarded to the jobs
 
 Gateway nodes will typically be login nodes or VMs running on login nodes.
 
-### Example Middleware configuration for typical HPC cluster
+### Configuring the middleware for an HPC cluster
 
+The middleware is configured using a config file that is searched in the following locations (sorted by decreasing priority):
+
+1. `$INSTALL_DIR/config.json`
+2. `$INSTALL_DIR/../etc/config.json`
+3. `/etc/runner/config.json"`
+4. `/opt/runner/etc/config.json`
+
+Example configuration file content:
 ```
 {
     "bwvisu-home-prefix" : "/shared/home",
@@ -86,6 +94,25 @@ Gateway nodes will typically be login nodes or VMs running on login nodes.
 }
 
 ```
+
+Explanation of the fields:
+* `bwvisu-home-prefix`: A directory such that `$bwvisu-home-prefix/$user-id` corresponds to a user-specific directory where bwVisu can deposit job logfiles. This directory should be read/writable by the user, and only the user. A typical choice of this directory is the home directory.
+* `gateway-nodes`: A list of nodes that will be used as gateways, i.e. the visualization data stream will be channeled from the internal compute nodes through the gateway nodes to the user
+   * `internal-ip`: IP of the gateway node in the internal network of the cluster
+   * `external-ip`: Publicly reachable IP of the gateway node
+   * `user`: Name of the user that the middleware will use to log into the gateway nodes to setup `iptables` port forwarding
+   * `port`: ssh port that the middleware should use to login
+* `command-nodes`: A list of nodes to be used to manage jobs; i.e. invoke `sbatch`, `squeue`, `scancel`
+   * `ip`: IP of the command node. Must be reachable from the middleware.
+   * `user`: Name of the user that the middleware will use for login
+   * `port`: ssh port that the middleware should use to login
+* `keyholed-servers`: List of IPs and ports of keyhole server deployments. Since keyhole is part of the middleware and most deployments will feature only one middleware deployments, this is usually the IP of the middleware machine. Must be reachable from the compute nodes.
+* `keyholed-port-range`: Range of ports on compute and gateway nodes that the middleware is allowed to use for bwVisu.
+* `keyholed-max-forwarders-per-job`: Maximum number of forwarded ports that a single job is allowed to request.
+* `etcd-servers`: IP and port of the etcd database servers that store the middleware's data
+* `debug`
+   * `keyholed-static-forwarding`: If set to true, will always assign the same port to jobs for debugging purposes. Should never be enabled on actual deployments.
+* `forwarding-hostname-suffix`: This will be appended to the port forwarding target's hostname. For example, a job is running on the hostname `visu4`. The middleware now attempts to create a port forwarding rule from `gateway0` to `visu4$-forwarding-hostname-suffix`. This can be useful if there are multiple networks and a suffix is used to distinguish which network interface on the host is meant. In the example configuration, `-ib0` is used to enforce that the Infiniband network is used to transport the bwVisu visualization data stream.
 
 ### bwVisu applications on the backend
 
