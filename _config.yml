@@ -1,2 +1,5 @@
 theme: jekyll-theme-dinky
 title: bwVisu
+url: "https://bwvisu.github.io"
+plugins:
+  - jekyll-sitemap
