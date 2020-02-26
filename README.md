@@ -1,6 +1,6 @@
 # bwVisu - a scalable remote visualization service
 
-<img src="https://github.com/bwvisu/docs/raw/master/docs/img/bwvisu2.png" alt="" width="400"/>
+<img src="https://github.com/bwvisu/docs/raw/master/img/bwvisu2.png" alt="" width="400"/>
 
 When large quantities of scientific data is created (for example, from simulations), it is often necessary to employ hardware for the visualization is just as powerful as e.g. the HPC cluster that created the data in the first place. Transferring the data to a local workstation for visualization and analysis is therefore not only time-consuming because of the data transfer itself, but the workstation may be ill-equipped to handle the workload. For such scenarios, remote visualization solutions are needed, that employ *powerful hardware* and *bring the visualization to the data* - and not vice versa.
 
@@ -27,11 +27,11 @@ New to bwVisu? Come [this way!](user-docs/getting-started.md)
 
 bwVisu is developed by:
 
-<img src="https://github.com/bwvisu/docs/raw/master/docs/img/unihd.png" alt=""  width="200"/>
-<img src="https://github.com/bwvisu/docs/raw/master/docs/img/hlrs.png" alt="" width="200"/>
-<img src="https://github.com/bwvisu/docs/raw/master/docs/img/kit.png" alt=""  width="200"/>
+<img src="https://github.com/bwvisu/docs/raw/master/img/unihd.png" alt=""  width="200"/>
+<img src="https://github.com/bwvisu/docs/raw/master/img/hlrs.png" alt="" width="200"/>
+<img src="https://github.com/bwvisu/docs/raw/master/img/kit.png" alt=""  width="200"/>
 
 We gratefully acknowledge funding by
 
 
-<img src="https://github.com/bwvisu/docs/raw/master/docs/img/mwk.png" alt="" width="300"/>
+<img src="https://github.com/bwvisu/docs/raw/master/img/mwk.png" alt="" width="300"/>
