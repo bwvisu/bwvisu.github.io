@@ -9,7 +9,7 @@ The bwVisu middleware distinguished between 3 different types of nodes:
 
 * Compute nodes - Nodes where the jobs will be running
 * Command nodes - Nodes from which jobs are managed
-* Gateway nodes - Nodes that are used as 'data gateways' which the user can use connect to the jobs.
+* Gateway nodes - Nodes that are used as 'data gateways' which the user can use to connect to the jobs.
 
 These node types refer to feature sets, not to physically distinct machines - for example, a machine could be compute, command and gateway node at the same time.
 
