@@ -9,11 +9,15 @@ The bwVisu project provides such a remote visualization service for scientists f
 
 ## News/current state
 
-bwVisu is an ongoing development effort. The service and software stack are currently in an alpha test phase. Interested users are invited to contact us to get access.
+bwVisu is an ongoing development effort. Latest news:
+* 2020/3/17: bwVisu has now been opened for the wider audience of scientists from the state of Baden-Württemberg.
 
 
 ## Getting started
 New to bwVisu? Come [this way!](user-docs/getting-started.md)
+
+## Login
+Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) to go straight to the bwVisu login!
 
 ## Documentation
 * **For users:** [See here](user-docs/user-docs.md) for an introduction to bwVisu for users.
