@@ -52,20 +52,21 @@ The middleware is configured using a config file that is searched in the followi
 3. `/etc/runner/config.json"`
 4. `/opt/runner/etc/config.json`
 
-Example configuration file content:
+Example configuration file content, assuming 
+Assume internal network `10.0.0.0/24`, external ips `1.2.3.0/24`, and the middleware VM running on `2.2.2.2`.
 ```
 {
     "bwvisu-home-prefix" : "/shared/home",
     "gateway-nodes" : [
         {
-            "internal-ip" : "10.100.0.101",
-            "external-ip" : "129.206.9.248",
+            "internal-ip" : "10.0.0.1",
+            "external-ip" : "1.2.3.1",
             "user" : "bwvisurunner",
             "port" : 22
         },
         {
-            "internal-ip" : "10.100.0.102",
-            "external-ip" : "129.206.9.253",
+            "internal-ip" : "10.0.0.2",
+            "external-ip" : "1.2.3.2",
             "user" : "bwvisurunner",
             "port" : 22
         }
@@ -73,17 +74,17 @@ Example configuration file content:
     ],
     "command-nodes" : [
         {
-            "ip" : "129.206.9.248",
+            "ip" : "1.2.3.1",
             "user" : "bwvisurunner",
             "port" : 22                                                                                                                                        
         },
         {
-            "ip" : "129.206.9.253",
+            "ip" : "1.2.3.2",
             "user" : "bwvisurunner",
             "port" : 22
         }
     ],
-    "keyholed-servers" : [ { "ip": "129.206.7.86", "port" : 80} ],
+    "keyholed-servers" : [ { "ip": "2.2.2.2", "port" : 80} ],
     "keyholed-port-range" : { "min" : 50000, "max" : 60000 },
     "keyholed-max-forwarders-per-job" : 100,
     "etcd-servers" : [ { "ip": "127.0.0.1", "port" : 2379} ],
