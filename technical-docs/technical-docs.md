@@ -76,3 +76,20 @@ See `deployment/provision-middleware.py` in the middleware software repository t
 Finally, adapt your middleware configuration file to your setup. More information on this configuration file can again be found [here](backend.md).
 
 ## Applications
+
+
+# How to install
+
+You need to prepare the various components of bwVisu:
+## 1. Preparing the backend
+Make sure that the backend cluster meets all requirements as described [here](backend.md).
+
+## 2. Installing the Middleware
+You can find instructions on how to configure a virtual machine running the middleware in the middleware (`bwvisu-runner`) repository in `deployment/provision-middleware.py`.
+
+## 3. Installing the Webfrontend
+You can find instructions on how to install the web frontend in the readme of the web frontend repository (`bwvisu-web`)
+
+## 4. Installing the Applications
+
+
