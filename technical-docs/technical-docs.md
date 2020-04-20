@@ -63,10 +63,10 @@ Jobs are started by substituting variables in batch script templates with values
 The bwVisu backend cluster can in principle be any regular HPC cluster. bwVisu has been designed to be minimally invasive and imposes very few requirements on the cluster. See [here](backend.md) for a detailed description on how to tell the middleware how to talk to an existing cluster, and which prerequisites must be met.
 
 ## Applications
+Applications provided by bwVisu are usually containerized Singularity images. There are only few restrictions on the images used in bwVisu. For more information see [here](applications.md).
 
 # Deploying bwVisu
-
-In order to deploy bwVisu on your own infrastructure, you need to install the components of the software stack:
+Place your images in your image directory. Modify the contents of the templates inside the bwVisu runner (job script templates) with the path to your application images. Make sure that the image containing the modified Xorg (`bwvisu_xorg.sif`) is inside that directory. Update the `app bundle` content with the new application More information can be found [here](applications.md). 
 
 ## Webfrontend
 ## Middleware
@@ -76,6 +76,7 @@ See `deployment/provision-middleware.py` in the middleware software repository t
 Finally, adapt your middleware configuration file to your setup. More information on this configuration file can again be found [here](backend.md).
 
 ## Applications
+Applications provided by bwVisu are usually containerized Singularity images. There are only few restrictions on the images used in bwVisu. For more information see [here](applications.md).
 
 
 # How to install
@@ -91,5 +92,4 @@ You can find instructions on how to configure a virtual machine running the midd
 You can find instructions on how to install the web frontend in the readme of the web frontend repository (`bwvisu-web`)
 
 ## 4. Installing the Applications
-
-
+See [here](applications.md) for further instructions.
