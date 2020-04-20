@@ -76,8 +76,7 @@ See `deployment/provision-middleware.py` in the middleware software repository t
 Finally, adapt your middleware configuration file to your setup. More information on this configuration file can again be found [here](backend.md).
 
 ## Applications
-Applications provided by bwVisu are usually containerized Singularity images. There are only few restrictions on the images used in bwVisu. For more information see [here](applications.md).
-
+Modify the contents of the templates inside the bwVisu runner (job script templates) with the path to your application images. Make sure that the image containing the modified Xorg (`bwvisu_xorg.sif`) is inside that directory. Update the content of your `app bundles` with the new application. More information can be found [here](applications.md). 
 
 # How to install
 
