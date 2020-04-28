@@ -25,7 +25,7 @@ Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) 
 
 ## Any questions?
 
-[Get in touch with us!](mailto:bwvisu-support@listserv.uni-heidelberg.de)
+[Get in touch with us!](mailto:bwvisu-support@urz.uni-heidelberg.de)
 
 ## About
 
