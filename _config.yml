@@ -1,5 +1,5 @@
 theme: jekyll-theme-dinky
-title: <button name="button" onclick="https://www.bwvisu.de">bwVisu</button>
+title: <a href="https://www.bwvisu.de">bwVisu</a>
 url: "https://bwvisu.github.io"
 plugins:
   - jekyll-sitemap
