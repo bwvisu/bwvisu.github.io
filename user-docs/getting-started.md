@@ -10,7 +10,7 @@ In order to get started with bwVisu, please proceed as follows:
 * Inside the web frontend, you can start a new job by clicking on an application version in the application list. You will now see the application details. Click the `start new job` button to launch a new job.
 * Most bwVisu jobs are Xpra applications. For these, you can connect to the job with your browser by clicking the Xpra link in the job details. Alternatively, you can use the Xpra desktop client with the provided connection data and password.
 * Some applications like Vistle require a dedicated desktop client.
-* For Xpra applications, you will now see the actual application window as well as an `xterm`-Terminal window inside your browser. Inside the terminal window, a setup program is running that will guide you through the process of connecting to your data on SDS@hd or the bwForCluster MLS&WISO.
+* For Xpra applications, you will now see the actual application window as well as an `xterm`-Terminal window inside your browser. Inside the terminal window, a setup program is running that will guide you through the process of connecting to your data on SDS@hd or the bwForCluster MLS&WISO. *Note: If you would like to rerun the setup program at a later time, remove `~/.bwvisu/setup-done`. The program will then start again with your next bwVisu job. Note that connections to SDS@hd or the bwForCluster MLS&WISO persist if you have already configured them previously -- they do not need to be reconfigured.*
 * The job will terminate
    * when the job runtime requested in the job submission form has expired
    * when all windows have been closed inside the Xpra popup window (but the job will not terminate if only the popup window itself is closed)
