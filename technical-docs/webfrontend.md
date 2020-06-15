@@ -28,7 +28,7 @@ services:
       - "80:80"
       - "5555:5555" # REPL server
     environment:
-      - "BWVISU_JWT_SECRET=Lalaltra"
+      - "BWVISU_JWT_SECRET=SOME_SECRET"
       - "BWVISU_ORCHESTRATION_ENGINE=infectoid"
       - "BWVISU_INFECTOID_ENDPOINT=https://infectoid.example.org"
       - "BWVISU_INFECTOID_IMPERSONATE=infectoid-user"
