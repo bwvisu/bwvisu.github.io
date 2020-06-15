@@ -6,8 +6,11 @@ When large quantities of scientific data is created (for example, from simulatio
 
 The bwVisu project provides such a remote visualization service for scientists from Baden-Württemberg as well as the corresponding software stack to deploy such a service on-premise. In bwVisu, the user can log in to an intuitive web frontend which manages visualization jobs running on an HPC cluster. Once a job has been started, the user can connect to it such that the visualization application appears in a browser window with full 3D hardware acceleration provided by the cluster. The only requirement on the client side is that the browser must support HTML5.
 
+## Current state
 
-## News/current state
+* 2020/6/15: **Because of current problems around the bwServices LDAP authentication service the bwVisu web frontend is currently unavailable.**
+
+## News
 
 bwVisu is an ongoing development effort. Latest news:
 * 2020/3/17: bwVisu has now been opened for the wider audience of scientists from the state of Baden-Württemberg.
