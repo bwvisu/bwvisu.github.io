@@ -30,6 +30,7 @@ The following image illustrates the bwVisu architecture in more detail:
 
 
 ## Webfrontend
+A web-interface and control plane. See [here](webfrontend.md) for more information on the bwVisu webfrontend.
 
 ## Middleware
 A custom middleware provides an interface for the web frontend to manage jobs. The middleware, called bwVisu *runner* is written in python and exposes its features via a flask-based HTTP REST API to the web frontend. 
@@ -68,6 +69,9 @@ Applications provided by bwVisu are usually containerized Singularity images. Th
 # Deploying bwVisu
 
 ## Webfrontend
+
+See [here](webfrontend.md) for information on how to deploy the bwVisu webfrontend. Development of the bwVisu webfrontend has been concluded and a docker image will be provided.
+
 ## Middleware
 
 Make sure the backend meets all requirements as described [here](backend.md).
@@ -87,7 +91,7 @@ Make sure that the backend cluster meets all requirements as described [here](ba
 You can find instructions on how to configure a virtual machine running the middleware in the middleware (`bwvisu-runner`) repository in `deployment/provision-middleware.py`.
 
 ## 3. Installing the Webfrontend
-You can find instructions on how to install the web frontend in the readme of the web frontend repository (`bwvisu-web`)
+You can find instructions on how to install the web frontend in the readme of the web frontend repository (`bwvisu-web`) and [here](webfrontend.md).
 
 ## 4. Installing the Applications
 See [here](applications.md) for further instructions.
