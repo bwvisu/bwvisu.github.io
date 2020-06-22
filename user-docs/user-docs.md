@@ -12,4 +12,4 @@ Once a connection is established to one of the storage backends as described in 
 * The terminal inside your job window does not entirely respect German keyboard layout
 * Connection to remote data storage like SDS@hd is possible with sshfs only for time being
 * The GPU type in the job submission form is ignored at the moment
-* Occasionally your web frontend session might might freeze after reopening the browser. A manual logout will fix this problem.
+* Occasionally your web frontend session might freeze after reopening the browser. A manual logout will fix this problem.
