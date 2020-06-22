@@ -8,7 +8,7 @@ The bwVisu project provides such a remote visualization service for scientists f
 
 ## Current state
 
-* **<p style="color:green;">bwVisu is currently operational</p>**
+* <p style="color:green;">bwVisu is currently operational</p>
 
 ## News
 
