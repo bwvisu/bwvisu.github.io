@@ -8,7 +8,7 @@ The bwVisu project provides such a remote visualization service for scientists f
 
 ## Current state
 
-* 2020/6/15: **Because of current problems around the bwServices LDAP authentication service the bwVisu web frontend is currently unavailable.**
+* <p style="color:green;">bwVisu is currently operational</p>
 
 ## News
 
