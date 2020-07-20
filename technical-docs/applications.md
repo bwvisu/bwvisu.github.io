@@ -9,8 +9,16 @@ Applications in bwVisu have only a few restrictions. These being namely:
 2. Images do not need to contain the Nvidia driver as it will be provided by the HPC system. However MPI needs to match the version of the system the application is running and needs to be inside of the image.
 3. Generally speaking, the functionality of the image should be checked. If it did not run on you local machine do not expect it to work with bwVsu.
 
+## Where to get Applications
+bwVisu is in general compatible with any graphical application that fulfills the above mentioned restrictions. Example applications can be found in the GitLab group ```urz-sb-fire/sg-dic/bwvisu/bwvisu-images/```
+
+
 ## Modified Xorg
 bwVisu provides every job with an accelerated Xorg as this is necessary to have hardware acceleration for your application. Xorg itself will be provided by an image (probably named `bwvisu_xorg.sif`). This Xorg is modified to patch out the need for virtual consoles and can be started by non-root users. This is necessary for providing an X server for every job so that users do not need to share one. For more information see [this article](https://devblogs.nvidia.com/hpc-visualization-nvidia-tesla-gpus/) and [this issue](https://gitlab.freedesktop.org/xorg/xserver/issues/635).
+You can get the bwVisu Xorg image via
+```
+singularity pull docker://registry-gitlab.urz.uni-heidelberg.de/urz-sb-fire/sg-dic/bwvisu/bwvisu-images/urz-sb-fire-bwvisu-driver/centos-7-5
+```
 
 
 ## How does bwVisu run applications?
