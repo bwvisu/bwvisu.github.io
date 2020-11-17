@@ -4,7 +4,7 @@
 
 In order to get started with bwVisu, please proceed as follows:
 
-* Register for the service bwVisu at [http://bwservices.uni-heidelberg.de](http://bwservices.uni-heidelberg.de). You can optionally set a service password. If a service password is set, use this password for the bwvisu login later on; if not, use your regular uni id password.
+* Register for the service bwVisu at [http://bwservices.uni-heidelberg.de](http://bwservices.uni-heidelberg.de). It is required to set a service password. Once a service password is set, use this password for the bwvisu login later on.
 * Once your registration has been completed, the bwVisu system will set up your user account. This can take up to 10 minutes, so please wait for around ten minutes before proceeding.
 * Log in to the bwVisu web frontend at [https://bwvisu-web.urz.uni-heidelberg.de](https://bwvisu-web.urz.uni-heidelberg.de). Your username will be `<site-prefix>_<uni-id>`, e.g. `hd_ab123` for a user from Heidelberg. The password will be your bwVisu service password if set at `bwservices.uni-heidelberg.de`, otherwise it will be your regular uni id password.
 * Inside the web frontend, you can start a new job by clicking on an application version in the application list. You will now see the application details. Click the `start new job` button to launch a new job.
