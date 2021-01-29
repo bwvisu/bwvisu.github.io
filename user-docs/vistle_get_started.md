@@ -18,10 +18,11 @@ Make sure you have installed all dependencies listed on this site. Then follow t
 
 ## Part B: Connecting to the server
 Start a new Vistle job on bwVisu.
-Once the job is running, you can find the servers address and port listed in the job information section:  tcp://<ip>:<port>
+Once the job is running, you can find the servers address and port listed in the job information section:  tcp://\<ip\>:\<port\>
+
 Follow the instruction in either a) or b), depending on if you are using Singularity.
 
-**d)** Starting Vistle from the Singularity image
+**a)** Starting Vistle from the Singularity image
 1.	Go to the singularity directory and enter the Vistle client image:
       > singularity shell --nv vistle-client.sif
 2.	Inside: Set the Vistle key variable
@@ -29,7 +30,7 @@ Follow the instruction in either a) or b), depending on if you are using Singula
 3.	Connect to the server by inserting the IP and Port from the bwVisu job information
       > Singularity> /usr/bin/vistle -c \<ip\>:\<port\>
       
-**e)** Starting Vistle if installed via GitHub or Homebrew
+**b)** Starting Vistle if installed via GitHub or Homebrew
 1.  On your client machine, go to the Vistle directory and set the key variable:
       > export VISTLE_KEY=0000
 2.	Connect to the server by inserting the IP and Port from the bwVisu job information
