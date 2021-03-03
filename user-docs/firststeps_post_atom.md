@@ -1,4 +1,4 @@
-# pastAtom user guide #
+# pastAtom User Guide #
 
 
 **postAtom**, a framework for large-scale data visualization of particles, volumes, and vector fields.
