@@ -42,3 +42,7 @@ We gratefully acknowledge funding by
 
 
 <img src="https://github.com/bwvisu/docs/raw/master/img/mwk.png" alt="" width="300"/>
+
+## Impressum
+
+[Impressum](https://www.urz.uni-heidelberg.de/de/Impressum)
