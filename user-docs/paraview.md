@@ -7,4 +7,4 @@ the ParaView website.
 
 We recommend the [official ParaView tutorial](https://www.paraview.org/Wiki/The_ParaView_Tutorial) as a starting point.
 All the data needed for the tutorial is available inside the bwVisu-ParaView application, so you can get started
-immediately. The tutorial-data can be found under $HOME/bwvisu_examples/ParaView/ParaViewTutorialData.
+immediately. The tutorial-data can be found under `/bwvisu_examples/ParaView/ParaViewTutorialData`.
