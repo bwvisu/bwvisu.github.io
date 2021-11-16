@@ -13,6 +13,7 @@ These are specific guides for some of bwVisu's applications.
 * [postAtom](firststeps_post_atom.md)
 * [vistle](vistle_get_started.md)
 * [ParaView](paraview.md)
+* [Jupyter](jupyter.md)
 
 ## Known issues
 
