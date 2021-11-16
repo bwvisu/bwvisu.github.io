@@ -1,8 +1,8 @@
 # Jupyter User Guide #
 
-## Create new kernel for Jupyter
+## Create customized kernel for Jupyter
 
-Open a terminal and create a virtual environment:
+Open a terminal and create virtual environment `<myEnv>`:
 ```
 python3 -m venv <myEnv>
 source <myEnv>/bin/activate
@@ -12,7 +12,7 @@ Install packages in virtual environment:
 ```
 pip install --upgrade pip
 pip install ipykernel
-pip install <myPackage> 
+pip install <myPackages> 
 ```
 
 Create new kernel:
