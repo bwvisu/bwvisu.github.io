@@ -8,7 +8,8 @@ The bwVisu project provides such a remote visualization service for scientists f
 
 ## Current state
 
-* <p style="color:green;">bwVisu is online for testing. Job-Submission only for bwForCluster MLS&WISO users.</p>
+<!-- * <p style="color:green;">bwVisu is online for testing. Job-Submission only for bwForCluster MLS&WISO users.</p> -->
+* <p style="color:green;">bwVisu is currently unavailable due to maintenance. Job submissions are disabled.</p>
 
 ## News
 
