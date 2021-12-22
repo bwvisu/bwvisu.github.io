@@ -9,7 +9,7 @@ The bwVisu project provides such a remote visualization service for scientists f
 ## Current state
 
 * <p style="color:green;">bwVisu is online for testing. Job-Submission only for bwForCluster MLS&WISO users.</p>
-* <p style="color:green;">Cryosparc app is still under development and may crash unexpectedly or fail to start</p>
+* <p style="color:green;">Cryosparc app is still under development and may crash unexpectedly or fail to start. Additionally, only one cryosparc job can run at the same time on the cluster.</p>
 <!-- * <p style="color:green;">bwVisu is currently unavailable due to maintenance. Job submissions are disabled.</p> -->
 
 ## News
