@@ -26,9 +26,9 @@ Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) 
 
 ## Documentation
 * **For users:** [See here](user-docs/user-docs.md) for an introduction to bwVisu for users. Please also have a look on the [acknowledgement notice](acknowledgement.md).
-<!---
+<!--
 * **For administrators or the technically inclined:** [See here](technical-docs/technical-docs.md) for the bwVisu technical documentation, including a description of its architecture, how it works and how to install bwVisu.
---->
+-->
 ## Any questions?
 
 [Get in touch with us!](mailto:bwvisu-support@urz.uni-heidelberg.de)
