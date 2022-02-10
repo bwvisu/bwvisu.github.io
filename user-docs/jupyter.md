@@ -1,8 +1,8 @@
 # Jupyter User Guide
 
 ## Table of contents
-1) [How to add python packages to Jupyter](how-to-add-python-packages-to-jupyter)
-2) [How to update the python version](how-to-update-the-python-version)
+1) [How to add python packages to Jupyter](#how-to-add-python-packages-to-jupyter)
+2) [How to update the python version](#how-to-update-the-python-version)
 
 ## How to add python packages to Jupyter
 
@@ -53,10 +53,10 @@ There are numerous ways to create virtual environment for python. Here are two w
 ### Select your newly created kernel `<myKernel>` in Jupyter
   
 ## How to update the python version
-1) Activate the Miniconda module as shown in the [previous section](create-a-virtual-environment).
+1) Activate the Miniconda module as shown in the [previous section](#create-a-virtual-environment).
 2) Create a virtual environment with a custom python version via conda:
    ```
    conda create --name <myenv> python=<python version>
    ```
-3) [Register](register-your-virtual-environment-for-jupyter) your virtual environment for Jupyter.
+3) [Register](#register-your-virtual-environment-for-jupyter) your virtual environment for Jupyter.
 4) Select your newly created kernel in Jupyter  
