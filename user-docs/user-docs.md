@@ -18,6 +18,3 @@ These are specific guides for some of bwVisu's applications.
 ## Known issues
 
 * The terminal inside your job window does not entirely respect German keyboard layout
-* Connection to remote data storage like SDS@hd is possible with sshfs only for time being
-* The GPU type in the job submission form is ignored at the moment
-* Occasionally your web frontend session might freeze after reopening the browser. A manual logout will fix this problem.
