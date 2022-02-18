@@ -21,6 +21,16 @@ Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) 
 
 <!-- * **For administrators or the technically inclined:** [See here](technical-docs/technical-docs.md) for the bwVisu technical documentation, including a description of its architecture, how it works and how to install bwVisu. -->
 
+## List of current apps
+Currently, the following apps are available, among others:
+- Jupyter
+- Paraview
+- Vistle
+- postAtom
+- phy
+- IMOD
+- VMD
+
 ## Any questions?
 
 [Get in touch with us!](mailto:bwvisu-support@urz.uni-heidelberg.de)
