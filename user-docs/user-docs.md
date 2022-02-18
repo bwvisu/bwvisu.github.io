@@ -5,7 +5,7 @@
 Please [click here](getting-started.md) to get started with bwVisu!
 
 ## Accessing data in bwVisu
-Once a connection is established to one of the storage backends as described in [getting started](getting-started.md), users can access their data using the directories for the bwForCluster MLS&WISO and SDS@hd in their home directories.
+You can access your data stored in your bwForCluster MLS&WISO home directory and [SDS@hd storage](jupyter.md#how-to-access-your-sds-storage).
 
 ## User guides for bwVisu applications
 These are specific guides for some of bwVisu's applications. 
