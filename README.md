@@ -8,7 +8,7 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 
 ## Current state
 
-* <p style="color:green;">bwVisu is online for testing. Job-Submission only for bwForCluster MLS&WISO and SDS@hd users.</p>
+* <p style="color:green;">bwVisu is online. The service is only available for users of bwForCluster MLS&WISO and SDS@hd.</p>
 <!-- * <p style="color:green;">bwVisu is currently unavailable due to maintenance. Job submissions are disabled.</p> -->
 
 ## Login
