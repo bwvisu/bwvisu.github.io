@@ -5,7 +5,7 @@
 Please [click here](getting-started.md) to get started with bwVisu!
 
 ## Accessing data in bwVisu
-You can access your data stored in on bwForCluster Helix (home directory and workspaces) and SDS@hd (under /mnt/sds-hd).
+You can access your data stored on bwForCluster Helix (home directory and workspaces) and SDS@hd (under /mnt/sds-hd).
 
 ## User guides for bwVisu applications
 These are specific guides for some of bwVisu's applications. 
