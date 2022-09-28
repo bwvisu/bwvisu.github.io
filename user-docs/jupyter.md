@@ -5,8 +5,6 @@
    1) [Via virtual environments](#via-virtual-environments)
    2) [Via miniconda](#via-miniconda)
 2) [How to update the python version](#how-to-update-the-python-version)
-3) [How to access your sds storage](#how-to-access-your-sds-storage)
- 
 
 ## How to add python packages to Jupyter
 
@@ -71,6 +69,3 @@
    python3 -m ipykernel install --user --name=<myKernel>
    ```
 5) Select your newly created kernel in Jupyter  
-
-## How to access SDS@hd 
-You can assess your data on SDS@hd unter `/mnt/sds-hd`.
