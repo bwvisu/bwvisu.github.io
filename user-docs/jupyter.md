@@ -72,12 +72,5 @@
    ```
 5) Select your newly created kernel in Jupyter  
 
-## How to access your sds storage
-1) Make sure you have an active kerberos ticket: Open a terminal in either Jupyter (press Crtl-Shift-L and select "Terminal") or - if you have a bwForCluster MLS&WISO user account - on the bwForCluster, type
-   ```
-   kinit hd_<your university id>
-   ```
-   and enter your password.
-   
-   Note: This step is only required if your ticket is about to expire.
-2) Access your data on sds under `/mnt/sds-hd`.
+## How to access SDS@hd 
+You can assess your data on SDS@hd unter `/mnt/sds-hd`.
