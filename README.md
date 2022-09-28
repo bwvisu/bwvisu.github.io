@@ -8,7 +8,7 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 
 ## Current state
 
-* <p style="color:green;">bwVisu is online. The service is only available for users of bwForCluster MLS&WISO and SDS@hd.</p>
+* <p style="color:green;">bwVisu is currently in maintenance due to migration to bwForCluster Helix until 14.10.2022. After that the service will be available again for users of bwForCluster Helix and users of SDS@hd. </p>
 <!-- * <p style="color:green;">bwVisu is currently unavailable due to maintenance. Job submissions are disabled.</p> -->
 
 ## Login
