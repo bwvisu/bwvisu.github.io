@@ -10,7 +10,7 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 
 <!-- * <p style="color:green;">bwVisu is running. The service is available for users of bwForCluster Helix and users of SDS@hd. </p> -->
 <!--* <p style="color:red;">bwVisu is currently down for maintenance, but will be back online soon.</p> -->
-* <p style="color:green;"> bwVisu is curently opperational. Due to the ongoing mitigation of the maintenance of hpc cluster Helix there might be gaps in the availability of the service.  In general, the service is available for users of bwForCluster Helix and users of SDS@hd. </p>
+* <p style="color:green;"> bwVisu is currently operational. Due to the ongoing mitigation of the maintenance of hpc cluster Helix there might be gaps in the availability of the service.  In general, the service is available for users of bwForCluster Helix and users of SDS@hd. </p>
 
 ## Login
 Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) to go straight to the bwVisu login!
