@@ -23,16 +23,16 @@ Already know what to do? [Click here](https://bwvisu-web.urz.uni-heidelberg.de) 
 <!-- * **For administrators or the technically inclined:** [See here](technical-docs/technical-docs.md) for the bwVisu technical documentation, including a description of its architecture, how it works and how to install bwVisu. -->
 
 ## List of current apps
-Currently, the following apps are available, among others:
-- [JupyterLab](https://jupyter.org/)
-- [RStudio](https://posit.co/products/open-source/rstudio-server/)
+As of 07/18/2023, the following apps are available:
 - [Fiji/ImageJ2](https://imagej.net/software/fiji/)
 - [ilastik](https://www.ilastik.org/)
 - [IMOD](https://bio3d.colorado.edu/imod/)
+- [JupyterLab](https://jupyter.org/)
 - [MITK](https://www.mitk.org/)
 - [ParaView](https://www.paraview.org/)
 - [phy](https://github.com/cortex-lab/phy)    
 - PostAtom
+- [RStudio](https://posit.co/products/open-source/rstudio-server/)
 - [Vistle](https://vistle.io/)
 - [VMD](https://www.ks.uiuc.edu/Research/vmd/)
 
