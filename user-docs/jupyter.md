@@ -31,8 +31,7 @@
    python3 -m ipykernel install --user --name=<myKernel>
    ```
 ### Via miniconda
-1) Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu: ![Screenshot at 2022-02-10 13-47-37](https://user-images.githubusercontent.com/68850960/153412721-960613c1-ccbd-46a3-922f-bcbf247553a8.png)
-    :warning: **Note:** Currently there is a bug preventing the miniconda module to be shown under the "Lodaded Modules" list after loading it. It will be activated anyway, you can check this by opening a terminal and typing `module list`.
+1) Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu: ![Screenshot at 2022-02-10 13-47-37](https://user-images.githubusercontent.com/68850960/153412721-960613c1-ccbd-46a3-922f-bcbf247553a8.png)    
 2) Open a terminal and type:
     ```
     conda create --name <myenv>
