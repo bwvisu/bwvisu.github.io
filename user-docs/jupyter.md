@@ -5,6 +5,7 @@
    1) [Via virtual environments](#via-virtual-environments)
    2) [Via miniconda](#via-miniconda)
 2) [How to update the python version](#how-to-update-the-python-version)
+3) [How to use R in Jupyter](#how-to-use-r-in-jupyter)
 
 ## How to add python packages to Jupyter
 
@@ -67,4 +68,23 @@
    ```
    python3 -m ipykernel install --user --name=<myKernel>
    ```
-5) Select your newly created kernel in Jupyter  
+5) Select your newly created kernel in Jupyter
+
+## How to use R in Jupyter
+
+1) On the cluster:
+   ```
+   $ module load math/R
+   $ R
+   > install.packages('IRkernel')
+   ```
+2) On bwVisu:
+   1)  Start Jupyter App
+   2) In left menue: load math/R
+   3) Open Console:
+    ```
+    $ R
+    > IRkernel::installspec(displayname = 'R 4.2')
+    ```
+   4) Start kernel 'R 4.2' as console or notebook
+
