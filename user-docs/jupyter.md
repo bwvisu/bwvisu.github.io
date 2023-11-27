@@ -79,8 +79,8 @@
    > install.packages('IRkernel')
    ```
 2) On bwVisu:
-   1)  Start Jupyter App
-   2) In left menue: load math/R
+   1) Start Jupyter App
+   2) In left menu: load math/R
    3) Open Console:
     ```
     $ R
