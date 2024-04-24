@@ -32,29 +32,29 @@
    python3 -m ipykernel install --user --name=<myKernel>
    ```
 ### Via miniconda
-1a) Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu: ![Screenshot at 2022-02-10 13-47-37](https://user-images.githubusercontent.com/68850960/153412721-960613c1-ccbd-46a3-922f-bcbf247553a8.png)    
+1) Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu: ![Screenshot at 2022-02-10 13-47-37](https://user-images.githubusercontent.com/68850960/153412721-960613c1-ccbd-46a3-922f-bcbf247553a8.png)    
 
-1b) Open a terminal and complete the miniconda setup with:
+2) Open a terminal and complete the miniconda setup with:
     ```
     source $MINICONDA_HOME/etc/profile.d/conda.sh 
     ```
-2) Ceate a conda environment:
+3) Ceate a conda environment:
     ```
     conda create --name <myenv>
     ```
-1) Activate your environment:
+4) Activate your environment:
     ```
     conda activate <myenv>
     ```
-2) Install your packages:
+5) Install your packages:
    ```
    conda install <mypackage>
    ```
-3) Install the ipykernel package:
+6) Install the ipykernel package:
    ```
    conda install ipykernel
    ```
-2) Register your virtual environment as custom kernel to Jupyter:
+7) Register your virtual environment as custom kernel to Jupyter:
    ```
    python3 -m ipykernel install --user --name=<myKernel>
    ```
