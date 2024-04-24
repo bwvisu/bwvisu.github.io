@@ -33,7 +33,12 @@
    ```
 ### Via miniconda
 1) Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu: ![Screenshot at 2022-02-10 13-47-37](https://user-images.githubusercontent.com/68850960/153412721-960613c1-ccbd-46a3-922f-bcbf247553a8.png)    
-2) Open a terminal and type:
+Open a terminal and complete the miniconda setup with:
+    ```
+    source $MINICONDA_HOME/etc/profile.d/conda.sh 
+    ```
+
+2) Ceate a conda environment:
     ```
     conda create --name <myenv>
     ```
