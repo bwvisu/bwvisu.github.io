@@ -103,8 +103,8 @@
 
    Answer: Open a terminal and set a sympolic link to your SDS@hd folder in your home directory. For example:
    ```
-   1) cd $HOME
-   2) mkdir sds-hd
-   3) cd sds-hd
-   4) ln -s /mnt/sds-hd/sd16a001 sd16a001
+   $ cd $HOME
+   $ mkdir sds-hd
+   $ cd sds-hd
+   $ ln -s /mnt/sds-hd/sd16a001 sd16a001
    ```
