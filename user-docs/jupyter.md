@@ -102,7 +102,7 @@
 
 2) Question: How can I navigate to my SDS@hd folder in the file browser?
 
-   Answer: Open a terminal and set a sympolic link to your SDS@hd folder in your home directory. For example:
+   Answer: Open a terminal and set a symbolic link to your SDS@hd folder in your home directory. For example:
    ```
    $ cd $HOME
    $ mkdir sds-hd
