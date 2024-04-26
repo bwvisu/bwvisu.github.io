@@ -97,9 +97,9 @@
 
 1) Question: My conda commands are interrupted with message 'Killed'. What can I do?
 
-   Answer: Request more memory when starting Juyper. In the job settings open 'Cluster Settings' and look for the option 'Memory / node'.
+   Answer: Request more memory when starting Juypter. In the job settings open 'Cluster Settings' and look for the option 'Memory / node'.
 
-2) Question: How can I navigate to my SDS@hd folder in the file browser.
+2) Question: How can I navigate to my SDS@hd folder in the file browser?
 
    Answer: Open a terminal and set a sympolic link to your SDS@hd folder in your home directory. For example:
    ```
