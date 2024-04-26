@@ -93,3 +93,18 @@
     ```
    4) Start kernel 'R 4.2' as console or notebook
 
+## FAQ
+
+1) Question: My conda commands are interrupted with message 'Killed'. What can I do?
+
+   Answer: Request more memory when starting Juyper. In the job settings open 'Cluster Settings' and look for the option 'Memory / node'.
+
+2) Question: How can I navigate to my SDS@hd folder in the file browser.
+
+   Answer: Open a terminal and set a sympolic link to your SDS@hd folder in your home directory. For example:
+   ```
+   1) cd $HOME
+   2) mkdir sds-hd
+   3) cd sds-hd
+   4) ln -s /mnt/sds-hd/sd16a001 sd16a001
+   ```
