@@ -6,7 +6,7 @@
    2) [Via miniconda](#via-miniconda)
 2) [How to update the python version](#how-to-update-the-python-version)
 3) [How to use R in Jupyter](#how-to-use-r-in-jupyter)
-4) [Frequently Asked Questions](#FAQ)
+4) [Frequently Asked Questions](#faq)
 
 ## How to add python packages to Jupyter
 
