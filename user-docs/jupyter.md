@@ -98,7 +98,7 @@
 
 1) Question: My conda commands are interrupted with message 'Killed'. What can I do?
 
-   Answer: Request more memory when starting Juypter. In the job settings open 'Cluster Settings' and look for the option 'Memory / node'.
+   Answer: Request more memory when starting Jupyter. In the job settings open 'Cluster Settings' and look for the option 'Memory / node'.
 
 2) Question: How can I navigate to my SDS@hd folder in the file browser?
 
