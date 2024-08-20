@@ -14,6 +14,7 @@ These are specific guides for some of bwVisu's applications.
 * [vistle](vistle_get_started.md)
 * [ParaView](paraview.md)
 * [Jupyter](jupyter.md)
+* [RStudio](rstudio.md)
 
 ## Known issues
 
