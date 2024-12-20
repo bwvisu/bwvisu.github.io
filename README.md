@@ -1,8 +1,10 @@
-<title>Redirecting...</title>
-<link rel="canonical" href="https://theorangeone.net" />
-<!--
- <meta http-equiv="refresh" content="#;url=https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu" />
--->
+<head>
+  <title>Redirecting...</title>
+  <link rel="canonical" href="https://theorangeone.net" />
+  <!--
+   <meta http-equiv="refresh" content="#;url=https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu" />
+  -->
+</head>
 
 # bwVisu - a scalable service for remote visualization and interactive applications
 
