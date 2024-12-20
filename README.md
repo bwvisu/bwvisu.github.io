@@ -1,3 +1,5 @@
+<meta http-equiv="refresh" content="0;url=https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu" />
+
 # bwVisu - a scalable service for remote visualization and interactive applications
 
 <img src="https://github.com/bwvisu/docs/raw/master/img/bwvisu2.png" alt="" width="400"/>
