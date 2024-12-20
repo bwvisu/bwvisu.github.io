@@ -9,12 +9,12 @@
   <body>
     <h1>bwVisu - a scalable service for remote visualization and interactive applications</h1>
     <img src="https://github.com/bwvisu/docs/raw/master/img/bwvisu2.png" alt="" width="400"/>
-    <p>
+    <h3>
       This site has moved to <a href="https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu">https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu</a>.
-    </p>
-    <p>
+    </h3>
+    <h3>
       You will be redirected in a few seconds...
-    </p>
+    </h3>
   </body>
 </html>
   <!--
