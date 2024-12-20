@@ -4,15 +4,17 @@
     <title>Redirecting...</title>
     <link rel="canonical" href="https://theorangeone.net" />
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="3; url=https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu" />
+    <meta http-equiv="refresh" content="8; url=https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu" />
   </head>
   <body>
     <h1>bwVisu - a scalable service for remote visualization and interactive applications</h1>
     <img src="https://github.com/bwvisu/docs/raw/master/img/bwvisu2.png" alt="" width="400"/>
-    <h2>
+    <p>
       This site has moved to <a href="https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu">https://www.urz.uni-heidelberg.de/en/service-catalogue/software-and-applications/bwvisu</a>.
-      You will be redirected in 3 seconds...
-    </h2>
+    </p>
+    <p>
+      You will be redirected in a few seconds...
+    </p>
   </body>
 </html>
   <!--
